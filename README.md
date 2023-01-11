@@ -45,3 +45,10 @@ def func():
 	a = 20
 	b = []
 	c = ""
+
+#### Work of Heap Memory
+#### The memory is allocated during execution of instructions written by programmers. Note that the name heap has nothing to do with heap data structure. It is called heap because it is a pile of memory space available to programmers to allocated and de-allocate. The variables are needed outside of method or function calls or are shared within multiple functions globally are stored in Heap memory.
+
+#This memory for 10 integers
+#is allocated on heap.
+a = [0]*10
