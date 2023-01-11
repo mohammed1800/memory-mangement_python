@@ -1,9 +1,17 @@
 # memory-mangement_python
+#### Memory Management consists of memory cells which contain 1 byte of binary information
+#### Memory Management is related to writing memory Efficient Code.
+#### If improper memory management takes place it leads to slowness in application and server components.
+
 ## memory allocation
 #### In Python memory allocation and deallocation method is automatic as the Python developers created a garbage collector for Python so that the user does not have to do manual garbage collection.
 
 ## Garbage Collection
 #### Garbage collection is a process in which the interpreter frees up the memory when not in use to make it available for other objects Assume a case where no reference is pointing to an object in memory i.e. it is not in use so, the virtual machine has a garbage collector that automatically deletes that object from the heap memor
+
+#### Many modern programming languages have built-in garbage collection, which automatically manages the memory used by a program. This includes languages such as Java, C#, Python, and Ruby.
+
+#### On the other hand, languages such as C and C++ do not have built-in garbage collection, and rely on manual memory management. Programmers using these languages must manually allocate and deallocate memory using functions such as malloc and free, and be careful to avoid memory leaks and other issues that can arise from incorrect memory management.
 
 ## Reference Counting
 #### Reference counting works by counting the number of times an object is referenced by other objects in the system. When references to an object are removed, the reference count for an object is decremented. When the reference count becomes zero, the object is deallocated.
