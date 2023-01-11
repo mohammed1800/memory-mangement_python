@@ -26,5 +26,22 @@ a = 4
 
 b = 4
 
+## Memory Allocation in Python
+#### There are two parts of memory:
 
+#### stack memory
+#### heap memory
+#### The methods/method calls and the references are stored in stack memory and all the values objects are stored in a private heap.
 
+#### Work of Stack Memory
+#### The allocation happens on contiguous blocks of memory. We call it stack memory allocation because the allocation happens in the function call stack. The size of memory to be allocated is known to the compiler and whenever a function is called, its variables get memory allocated on the stack.
+
+#### It is the memory that is only needed inside a particular function or method call. When a function is called, it is added onto the program’s call stack. Any local memory assignments such as variable initializations inside the particular functions are stored temporarily on the function call stack, where it is deleted once the function returns, and the call stack moves on to the next task. This allocation onto a contiguous block of memory is handled by the compiler using predefined routines, and developers do not need to worry about it.
+
+def func():
+	
+	# All these variables get memory
+	# allocated on stack
+	a = 20
+	b = []
+	c = ""
