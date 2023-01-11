@@ -11,11 +11,20 @@
 #### For example, Let’s suppose there are two or more variables that have the same value, so, what Python virtual machine does is, rather than creating another object of the same value in the private heap, it actually makes the second variable point to that originally existing value in the private heap. Therefore, in the case of classes, having a number of references may occupy a large amount of space in the memory, in such a case referencing counting is highly beneficial to preserve the memory to be available for other objects
 
 #Literal 9 is an object.
+
 b = 9
+
 a = 4
     
-#Reference count of object 9.  
+#Reference count of object 9.
+
 #becomes 0 and reference count.
+
 #of object 4 is incremented.
+
 #by 1.
+
 b = 4
+
+
+
